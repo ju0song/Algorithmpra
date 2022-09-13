@@ -23,7 +23,5 @@ public class Findtext {
         }
 
         return answer;
-
-
     }
 }
