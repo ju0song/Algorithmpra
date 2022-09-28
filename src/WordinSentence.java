@@ -1,5 +1,3 @@
-package String;
-
 import java.util.Scanner;
 
 //문장속 단어
