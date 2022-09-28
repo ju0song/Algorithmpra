@@ -9,8 +9,6 @@ public class Caseconversion {
         Scanner scanner = new Scanner(System.in);
         String a = scanner.next();
         System.out.println(caseconversion.solution(a));
-
-
     }
 
     public String solution(String a) {
