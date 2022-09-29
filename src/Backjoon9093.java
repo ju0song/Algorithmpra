@@ -16,11 +16,11 @@ public class Backjoon9093 {
         list.add(a);
 
         ArrayList<String> answer = new ArrayList<>();
-        for(int i=0;i<list.size();i++) {
-            String[] str = list.get(i).split(" "); // 공백을 기준으로 단어를 자른다
+        for (String value : list) {
+            String[] str = value.split(" "); // 공백을 기준으로 단어를 자른다
             StringBuilder revStr = new StringBuilder();
-            for (int j = 0; j < str.length; j++) {
-                revStr.append(new StringBuilder(str[j]).reverse() + " "); // 뒤집어서 붙인다
+            for (String s : str) {
+                revStr.append(new StringBuilder(s).reverse() + " "); // 뒤집어서 붙인다
             }
             answer.add(revStr.toString().trim()); // 앞뒤공백제거
         }
