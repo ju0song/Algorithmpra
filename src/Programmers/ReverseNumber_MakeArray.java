@@ -10,9 +10,7 @@ public class ReverseNumber_MakeArray {
     public int[] solution(long n) {
 
         String str = String.valueOf(n);
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append(str);
-        stringBuilder.reverse();
+        StringBuilder stringBuilder = new StringBuilder().append(str).reverse();
         String[] sp =stringBuilder.toString().split("");
         int[] answer = new int[sp.length];
         for(int i=0;i<sp.length;i++) {
