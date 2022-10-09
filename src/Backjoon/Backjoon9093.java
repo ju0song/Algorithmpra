@@ -1,3 +1,5 @@
+package Backjoon;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -14,7 +16,6 @@ public class Backjoon9093 {
         String a = scanner.nextLine();
         ArrayList<String> list = new ArrayList<>();
         list.add(a);
-
         ArrayList<String> answer = new ArrayList<>();
         for (String value : list) {
             String[] str = value.split(" "); // 공백을 기준으로 단어를 자른다
