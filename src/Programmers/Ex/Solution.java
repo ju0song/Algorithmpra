@@ -9,21 +9,21 @@ import java.util.ArrayList;
 //        12를 11로 나눈 나머지가 1이고, 11보다 작은 자연수 중에서 문제의 조건을 만족하는 수가 없으므로, 11을 return 해야 합니다.
     class Solution {
         public String solution(int n) {
-            String answer = "";
+            StringBuilder answer = new StringBuilder();
             String su="수";
             String bak = "박";
 
             for(int i=1; i <= n; i++){
                 if(i%2 == 1){
-                    answer+=su;
+                    answer.append(su);
                 }else{
-                    answer+=bak;
+                    answer.append(bak);
                 }
 
             }
-            return answer;
+            return answer.toString();
         }
-    }
+
     public static void main(String[] args) {
         Solution solution = new Solution();
         System.out.println(solution.solution(3));
