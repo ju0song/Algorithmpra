@@ -1,18 +1,17 @@
 package Pratice.String;
 
 import java.util.Scanner;
-
+//숫자만 추출
 //dsds1dfd5ds3d21se12sd13d58f84e36 ->153211213898436
-//answer =0으로 초가화 x >=
 public class NumberExtraction {
     public String solution(String s) {
-        String answer="";
+        StringBuilder answer= new StringBuilder();
         for (char x : s.toCharArray()) {
             if(Character.isDigit(x)){
-                answer +=x;
+                answer.append(x);
             }
         }
-        return answer;
+        return answer.toString();
     }
 
     public static void main(String[] args) {
