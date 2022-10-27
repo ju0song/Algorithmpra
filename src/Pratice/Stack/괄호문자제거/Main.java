@@ -1,18 +1,19 @@
-package Pratice.Stack;
+package Pratice.Stack.괄호문자제거;
 
-import java.util.*;
-class Main {	
+import java.util.Scanner;
+import java.util.Stack;
+
+class Main {
 	public String solution(String str){
-		String answer="YES";
+		String answer="";
 		Stack<Character> stack=new Stack<>();
 		for(char x : str.toCharArray()){
-			if(x=='(') stack.push(x);
-			else{
-				if(stack.isEmpty()) return "NO";
-				stack.pop();
+			if(x==')'){
+				while(stack.pop()!='(');
 			}
+			else stack.push(x);
 		}
-		if(!stack.isEmpty()) return "NO";
+		for(int i=0; i<stack.size(); i++) answer+=stack.get(i);
 		return answer;
 	}
 
