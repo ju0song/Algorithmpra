@@ -1,7 +1,5 @@
-package Programmers.NumberStringAndEnglishwords;
+package src.Programmers.숫자문자열과영단어;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 //https://school.programmers.co.kr/learn/courses/30/lessons/81301
 //다음은 숫자의 일부 자릿수를 영단어로 바꾸는 예시입니다.
 //1478 → "one4seveneight"
