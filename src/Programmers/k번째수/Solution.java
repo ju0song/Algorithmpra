@@ -1,8 +1,8 @@
-package Programmers.k번째수;
+package src.Programmers.k번째수;
 
 class Solution {
     public long solution(long n) {
-        long answer = 0;
+        long answer;
         if (Math.sqrt(n) % 1 == 0) {
             answer = (long) (Math.pow(Math.sqrt(n) + 1, 2));
         } else {

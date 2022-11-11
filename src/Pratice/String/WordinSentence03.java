@@ -1,4 +1,4 @@
-package Pratice.String;
+package src.Pratice.String;
 
 import java.util.Scanner;
 
