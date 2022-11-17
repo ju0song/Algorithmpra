@@ -1,4 +1,4 @@
-package Programmers;
+package src.Programmers;
 //평균구하기
 public class Average {
         public double solution(int[] arr) {

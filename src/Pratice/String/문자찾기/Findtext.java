@@ -1,4 +1,4 @@
-package src.Pratice.String;
+package src.Pratice.String.문자찾기;
 
 import java.util.Scanner;
 //한 개의 문자열을 입력받고, 특정 문자를 입력받아 해당 특정문자가 입력받은 문자열에 몇 개 존재하는지 알아내는 프로그램을 작성하세요. 대소문자를 구분하지 않습니다.
@@ -23,15 +23,11 @@ public class Findtext {
          int answer =0;
          s=s.toUpperCase();//대문자로 다 만들어주는 함수
          c=Character.toUpperCase(c);
-
          //string의 길이 length
          for(int i=0;i<s.length();i++){
              if(s.charAt(i) == c)
              answer++;
          }
-
          return answer;
-
-
      }
  }
