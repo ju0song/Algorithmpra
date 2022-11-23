@@ -1,4 +1,4 @@
-package src.Programmers.서울에서김서방찾기;
+package Programmers.서울에서김서방찾기;
 
 class Solution {
     public String solution(String[] seoul) {

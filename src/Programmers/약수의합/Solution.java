@@ -1,4 +1,4 @@
-package src.Programmers.약수의합;
+package Programmers.약수의합;
 
 class Solution {
     public int solution(int n) {

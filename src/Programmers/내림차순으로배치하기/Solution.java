@@ -1,4 +1,4 @@
-package src.Programmers.내림차순으로배치하기;
+package Programmers.내림차순으로배치하기;
 
 import java.util.ArrayList;
 import java.util.Arrays;

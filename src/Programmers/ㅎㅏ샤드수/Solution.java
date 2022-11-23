@@ -1,4 +1,4 @@
-package Algorithmpra.src.Programmers.ㅎㅏ샤드수;
+package Algorithmpra.Programmers.ㅎㅏ샤드수;
 
 class Solution {
     public boolean solution(int x) {

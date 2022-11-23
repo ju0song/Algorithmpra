@@ -1,4 +1,4 @@
-package src.Programmers.두정수사이의합;
+package Programmers.두정수사이의합;
 
 class Solution {
     public long solution(int a, int b) {

@@ -1,4 +1,4 @@
-package src.Backjoon;
+package Backjoon;
 
 import java.util.ArrayList;
 import java.util.Scanner;

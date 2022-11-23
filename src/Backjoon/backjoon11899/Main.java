@@ -1,4 +1,4 @@
-package src.Backjoon.backjoon11899;
+package Backjoon.backjoon11899;
 
 import java.util.*;
 import java.io.*;

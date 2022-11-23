@@ -1,4 +1,4 @@
-package src.Programmers.숫자문자열과영단어;
+package Programmers.숫자문자열과영단어;
 
 //https://school.programmers.co.kr/learn/courses/30/lessons/81301
 //다음은 숫자의 일부 자릿수를 영단어로 바꾸는 예시입니다.

@@ -1,4 +1,4 @@
-package src.Programmers.Ex;
+package Programmers.Ex;
 
 import java.util.ArrayList;
 

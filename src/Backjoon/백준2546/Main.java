@@ -1,4 +1,4 @@
-package src.Backjoon.백준2546;
+package Backjoon.백준2546;
 
 import java.util.Arrays;
 import java.util.Scanner;

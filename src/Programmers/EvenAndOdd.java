@@ -1,4 +1,4 @@
-package src.Programmers;
+package Programmers;
 
 public class EvenAndOdd {
         public String solution(int num) {

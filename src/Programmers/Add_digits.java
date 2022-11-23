@@ -1,4 +1,4 @@
-package src.Programmers;
+package Programmers;
 
 public class Add_digits {
         public int solution(int n) {
