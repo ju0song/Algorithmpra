@@ -6,10 +6,10 @@ class Solution {
         int count =0;
         int count2 =0;
         String[] a = s.split("");
-        for (int i = 0; i < a.length ; i++) {
-            if(a[i].equals("p") || a[i].equals("P")){
+        for (String value : a) {
+            if (value.equals("p") || value.equals("P")) {
                 count++;
-            }else if(a[i].equals("Y") || a[i].equals("y")){
+            } else if (value.equals("Y") || value.equals("y")) {
                 count2++;
             }
         }
