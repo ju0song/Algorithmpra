@@ -21,10 +21,10 @@ public class Main {
                 stack.push(b);
             }
         }
-            while (stack.isEmpty()) {
-                answer += stack.pop();
-            }
-        System.out.println(answer);
+        while (!stack.isEmpty()) {
+            answer += stack.pop();
         }
+        System.out.println(answer);
     }
+}
 
